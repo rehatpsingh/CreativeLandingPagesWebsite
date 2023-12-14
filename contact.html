@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Rehatpreet Singh" />
+  <title>contact</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/about contact.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="./images/QuantumScape Innovations-logos_transparent.png" alt="logo Image" class="logo" />
+    </div>
+
+    <div id="menu" class="fas fa-bars"></div>
+    
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="service.html">service</a></li>
+        <li><a href="plan.html">plan</a></li>
+        <li><a href="contact.html" id="active">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <form action="" id="contactForm">
+      <input type="text" class="box" placeholder="name" />
+      <input type="email" class="box" placeholder="your email" />
+      <input type="password" class="box" placeholder="your password" />
+      <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+
+      <input type="button" class="btn" value="Send message" onclick="SendMessage()"/>
+    </form>
+
+    <div class="content">
+      <h3>Contact us for latest updates</h3>
+      <p>Stay informed with our latest innovations. Your journey to cutting-edge solutions begins here!</p>
+      <div class="icons">
+        <i class="fas fa-map-marker-alt"></i> Waterloo, Canada.
+      </div>
+      <div class="icons">
+        <i class="fas fa-globe"></i> www.quantumscapepages.com
+      </div>
+      <div class="icons">
+        <i class="fas fa-phone"></i> +123-456-2133
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="flex-container">
+      <div class="box">
+        <h3>why choose us?</h3>
+        <p>Choose QuantumScape Innovations for cutting-edge solutions and unparalleled commitment. Our customer-centric
+          approach ensures transformative experiences. With a dedicated team, we navigate challenges seamlessly,
+          crafting products that exceed expectations. Embrace excellence, reliability, and innovation with us—your
+          gateway to a brighter future.</p>
+      </div>
+
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="plan.html">Plan</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="box">
+        <h3>Newsletter</h3>
+        <p>subscribe us for latest updates</p>
+        <form action="">
+          <input type="email" placeholder="your email" />
+          <input type="submit" class="btn" value="subscribe" />
+        </form>
+      </div>
+    </div>
+
+    <h1 class="copyright">
+      created by <a href="#">Section 10 Group 3</a> | all rights reserved.
+    </h1>
+  </footer>
+
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- custom js file link  -->
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
